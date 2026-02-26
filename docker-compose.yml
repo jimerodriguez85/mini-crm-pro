@@ -1,0 +1,21 @@
+# Para migrar a PostgreSQL en produccion:
+# 1. Cambiar DATABASE_URL en backend/.env
+# 2. Cambiar provider en prisma/schema.prisma de "sqlite" a "postgresql"
+# 3. docker compose up -d db
+# 4. cd backend && npx prisma db push && npm run db:seed
+
+version: "3.8"
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: crm_user
+      POSTGRES_PASSWORD: crm_pass
+      POSTGRES_DB: mini_crm
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

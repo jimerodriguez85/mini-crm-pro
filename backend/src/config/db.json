@@ -1,0 +1,22 @@
+{
+  "clients": [
+    {
+      "id": "demo-001",
+      "name": "María García",
+      "email": "maria@example.com",
+      "phone": "+52 55 1234 5678",
+      "company": "TechMX",
+      "status": "activo",
+      "createdAt": "2026-02-20T10:00:00.000Z"
+    },
+    {
+      "id": "demo-002",
+      "name": "Carlos López",
+      "email": "carlos@example.com",
+      "phone": "+52 33 9876 5432",
+      "company": "DataCorp",
+      "status": "activo",
+      "createdAt": "2026-02-21T14:30:00.000Z"
+    }
+  ]
+}
