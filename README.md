@@ -7,6 +7,31 @@ CRM completo para gestion de clientes construido con React y Node.js.
 ![Prisma](https://img.shields.io/badge/Prisma-ORM-2D3748?logo=prisma)
 ![Tailwind](https://img.shields.io/badge/Tailwind-3.4-06B6D4?logo=tailwindcss&logoColor=white)
 
+## Screenshots
+
+### Login
+![Login](./screenshots/login.png)
+
+### Dashboard
+Dashboard con estadisticas, graficos de clientes por mes y por empresa, y actividad reciente.
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Gestion de Clientes
+CRUD completo con busqueda en tiempo real, formulario de alta y tabla con estado del pipeline.
+
+![Clientes](./screenshots/clientes.png)
+
+### Pipeline Kanban
+Tablero drag & drop con 4 etapas: Prospecto, Contactado, Cliente y Cerrado.
+
+![Pipeline](./screenshots/pipeline.png)
+
+### Recordatorios
+Sistema de recordatorios con fechas, filtros por estado (Pendientes/Completados) y asignacion por cliente.
+
+![Recordatorios](./screenshots/recordatorios.png)
+
 ## Features
 
 - **Autenticacion JWT** con roles (admin/vendedor)
